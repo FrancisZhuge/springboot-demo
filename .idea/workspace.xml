@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49126aca-4d00-40f1-a309-b8ccf49c9e3f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/el/ElConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_common/src/main/resources/com/francis/spring_common/el/test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/el/ELTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/BeanWayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/JSRWayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/PrePostConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/prepost/PrepostTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring_base/target/" />
@@ -18,32 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LogAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_base/src/main/java/com/francis/spring_base/aop/LogAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AOPTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_base/src/test/java/com/francis/spring_base/aop/AOPTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DemoSingletonService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/scope/DemoSingletonService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,13 +40,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ElConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/el/ElConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="456">
+              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#653#667#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanWayService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/BeanWayService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrepostTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/prepost/PrepostTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrePostConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/PrePostConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSRWayService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/JSRWayService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,32 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScopeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/scope/ScopeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SpringCommonApplicationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/SpringCommonApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringCommonApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/SpringCommonApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -165,6 +182,12 @@
         <option value="$PROJECT_DIR$/spring_common/src/main/resources/com/francis/spring_common/el/test.properties" />
         <option value="$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/el/ELTest.java" />
         <option value="$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/el/ElConfig.java" />
+        <option value="$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/JSRWayService.java" />
+        <option value="$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/BeanWayService.java" />
+        <option value="$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/PrePostConfig.java" />
+        <option value="$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/prepost.java" />
+        <option value="$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/prepost/prepost.java" />
+        <option value="$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/prepost/PrepostTest.java" />
       </list>
     </option>
   </component>
@@ -256,7 +279,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="francis" type="462c0819:PsiDirectoryNode" />
               <item name="spring_common" type="462c0819:PsiDirectoryNode" />
-              <item name="el" type="462c0819:PsiDirectoryNode" />
+              <item name="prepost" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -341,18 +364,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="francis" type="462c0819:PsiDirectoryNode" />
               <item name="spring_common" type="462c0819:PsiDirectoryNode" />
-              <item name="el" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="francis" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_common" type="462c0819:PsiDirectoryNode" />
-              <item name="scope" type="462c0819:PsiDirectoryNode" />
+              <item name="prepost" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,7 +398,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ELTest.contextLoads">
+  <component name="RunManager" selected="JUnit.PrepostTest.contextLoads">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -459,18 +471,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="JavaConfigTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_base" />
+    <configuration name="PrepostTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.francis.spring_base.javaconfig.*" />
+          <option name="PATTERN" value="com.francis.spring_common.prepost.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.francis.spring_base.javaconfig" />
-      <option name="MAIN_CLASS_NAME" value="com.francis.spring_base.javaconfig.JavaConfigTest" />
+      <option name="PACKAGE_NAME" value="com.francis.spring_common.prepost" />
+      <option name="MAIN_CLASS_NAME" value="com.francis.spring_common.prepost.PrepostTest" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -549,19 +561,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringBaseApplication" />
-      <item itemvalue="JUnit.JavaConfigTest.contextLoads" />
       <item itemvalue="JUnit.AOPTest.contextLoads" />
       <item itemvalue="JUnit.AOPTest" />
       <item itemvalue="JUnit.ScopeTest.contextLoads" />
       <item itemvalue="JUnit.ELTest.contextLoads" />
+      <item itemvalue="JUnit.PrepostTest.contextLoads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrepostTest.contextLoads" />
         <item itemvalue="JUnit.ELTest.contextLoads" />
         <item itemvalue="JUnit.ScopeTest.contextLoads" />
         <item itemvalue="JUnit.AOPTest" />
         <item itemvalue="JUnit.AOPTest.contextLoads" />
-        <item itemvalue="JUnit.JavaConfigTest.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -577,7 +589,7 @@
       <updated>1533734106468</updated>
       <workItem from="1533734112696" duration="3715000" />
       <workItem from="1533782860570" duration="36000" />
-      <workItem from="1533890176934" duration="639000" />
+      <workItem from="1533890176934" duration="1387000" />
     </task>
     <task id="LOCAL-00001" summary="aop编程">
       <created>1533736476810</created>
@@ -604,9 +616,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DITest_contextLoads - 2018.08.08 at 21h 26m 49s.xml">
-      <configuration name="DITest.contextLoads" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DITest_contextLoads - 2018.08.08 at 21h 27m 16s.xml">
       <configuration name="DITest.contextLoads" configurationId="JUnit" />
     </history-entry>
@@ -628,9 +637,18 @@
     <history-entry file="ScopeTest_contextLoads - 2018.08.08 at 22h 04m 11s.xml">
       <configuration name="ScopeTest.contextLoads" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ELTest_contextLoads - 2018.08.10 at 16h 45m 57s.xml">
+      <configuration name="ELTest.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ELTest_contextLoads - 2018.08.10 at 16h 47m 00s.xml">
+      <configuration name="ELTest.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ELTest_contextLoads - 2018.08.10 at 16h 48m 02s.xml">
+      <configuration name="ELTest.contextLoads" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4390000" />
+    <option name="totallyTimeSpent" value="5138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1672" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1004,13 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/SpringCommonApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/el/ELTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -1025,8 +1036,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/el/ElConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="456">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#653#667#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/JSRWayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/BeanWayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/SpringCommonApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_common/src/main/java/com/francis/spring_common/prepost/PrePostConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_common/src/test/java/com/francis/spring_common/prepost/PrepostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
